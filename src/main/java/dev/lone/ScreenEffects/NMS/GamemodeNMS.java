@@ -65,8 +65,17 @@ public class GamemodeNMS
         //<editor-fold desc="Modern">
         switch (Version.get())
         {
-            case v1_20_6:
-                nms = new GamemodeNMS_v1_20_6();
+            case v1_21:
+                nms = new GamemodeNMS_v1_21();
+                break;
+            case v1_21_0:
+                nms = new GamemodeNMS_v1_21_0();
+                break;
+            case MC1_21:
+                nms = new GamemodeNMS_v1_21();
+                break;
+            case MC1_21_R0:
+                nms = new GamemodeNMS_v1_21_R0();
                 break;
         }
         //</editor-fold>
